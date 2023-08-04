@@ -15,7 +15,7 @@ def search(query, api_key, cse_id, **kwargs):
     return json.loads(response.text)
 
 # Your site, for example "example.com"
-site = "qorting.nl"
+site = "domain.com"
 
 # Google API key and Custom Search Engine ID
 api_key = "AIzaSyDttEgxQFDeP80-Yo_kDGXdUzGGQwIXXXX"
